@@ -9,7 +9,7 @@ const db=await mysql.createConnection({
 })
 
 
-console.log("MYSQL connected successfully");
+console.log("MYSQL connection successfull");
 //1. create database
 // await db.execute(`create database mysql_db`);
 
